@@ -165,7 +165,7 @@ function drawPose(pose, explode) {
     if (webcam.canvas) {
         ctx.drawImage(webcam.canvas, 0, 0);
         if (pose) {
-            const minPartConfidence = 0;
+            const minPartConfidence = 0.5;
             if (explode) {
                 pose.keypoints.forEach(keypoint => {
                     if (keypoint.score > minPartConfidence) {
