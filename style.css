@@ -7,6 +7,10 @@ html, body {
   font-family: Arial, sans-serif;
 }
 
+.instructions{
+  width: 100%;
+}
+
 .container {
   max-width: 1200px;
   margin: 5px;
